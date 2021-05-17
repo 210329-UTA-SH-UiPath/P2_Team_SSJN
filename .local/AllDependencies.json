@@ -1598,15 +1598,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sspring963\\.nuget\\packages\\": {}
+    "C:\\Users\\seanl\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "BlankProcess",
       "projectName": "BlankProcess",
-      "projectPath": "C:\\Users\\sspring963\\Documents\\UiPath\\ProductComparison\\.local",
-      "packagesPath": "C:\\Users\\sspring963\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sspring963\\Documents\\UiPath\\ProductComparison\\.local"
+      "projectPath": "C:\\Users\\seanl\\P2\\.local",
+      "packagesPath": "C:\\Users\\seanl\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\seanl\\P2\\.local"
     },
     "frameworks": {
       "net461": {
