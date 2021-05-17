@@ -1604,9 +1604,9 @@
     "restore": {
       "projectUniqueName": "BlankProcess",
       "projectName": "BlankProcess",
-      "projectPath": "C:\\Users\\sspring963\\Documents\\UiPath\\BlankProcess\\.local",
+      "projectPath": "C:\\Users\\sspring963\\Documents\\UiPath\\ProductComparison\\.local",
       "packagesPath": "C:\\Users\\sspring963\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sspring963\\Documents\\UiPath\\BlankProcess\\.local"
+      "outputPath": "C:\\Users\\sspring963\\Documents\\UiPath\\ProductComparison\\.local"
     },
     "frameworks": {
       "net461": {
