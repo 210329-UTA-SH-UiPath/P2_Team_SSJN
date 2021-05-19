@@ -1604,9 +1604,9 @@
     "restore": {
       "projectUniqueName": "BlankProcess",
       "projectName": "BlankProcess",
-      "projectPath": "C:\\Users\\seanl\\P2\\P2_Team_SSJN\\.local",
+      "projectPath": "C:\\Users\\seanl\\P2\\.local",
       "packagesPath": "C:\\Users\\seanl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\seanl\\P2\\P2_Team_SSJN\\.local"
+      "outputPath": "C:\\Users\\seanl\\P2\\.local"
     },
     "frameworks": {
       "net461": {
