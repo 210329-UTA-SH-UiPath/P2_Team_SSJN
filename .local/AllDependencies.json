@@ -1598,15 +1598,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\seanl\\.nuget\\packages\\": {}
+    "C:\\Users\\sspring963\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "BlankProcess",
       "projectName": "BlankProcess",
-      "projectPath": "C:\\Users\\seanl\\P2\\.local",
-      "packagesPath": "C:\\Users\\seanl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\seanl\\P2\\.local"
+      "projectPath": "C:\\Users\\sspring963\\Documents\\UiPath\\P2_Team_SSJn\\P2_Team_SSJN\\.local",
+      "packagesPath": "C:\\Users\\sspring963\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sspring963\\Documents\\UiPath\\P2_Team_SSJn\\P2_Team_SSJN\\.local"
     },
     "frameworks": {
       "net461": {

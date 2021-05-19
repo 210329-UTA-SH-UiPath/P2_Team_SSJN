@@ -65,7 +65,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:ReadRange AddHeaders="True" DataTable="[out_productDT]" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="333.6,88" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="Sheet2" WorkbookPath="Computer Parts.xlsx">
+    <ui:ReadRange AddHeaders="True" DataTable="[out_productDT]" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="333.6,88" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="Sheet2" WorkbookPath="data\Computer Parts.xlsx">
       <ui:ReadRange.Range>
         <InArgument x:TypeArguments="x:String">
           <Literal x:TypeArguments="x:String" Value="" />
