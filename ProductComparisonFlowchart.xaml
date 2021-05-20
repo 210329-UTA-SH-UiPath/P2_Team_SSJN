@@ -55,7 +55,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         <av:Point x:Key="ShapeLocation">270,2.5</av:Point>
         <av:Size x:Key="ShapeSize">60,75.2</av:Size>
-        <av:PointCollection x:Key="ConnectorLocation">270,40.1 120,40.1 120,103.6</av:PointCollection>
+        <av:PointCollection x:Key="ConnectorLocation">270,40.1 110,40.1 110,101.6</av:PointCollection>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <Flowchart.StartNode>
@@ -64,9 +64,9 @@
     <FlowStep x:Name="__ReferenceID6">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <av:Point x:Key="ShapeLocation">20,103.6</av:Point>
+          <av:Point x:Key="ShapeLocation">10,101.6</av:Point>
           <av:Size x:Key="ShapeSize">200,96.8</av:Size>
-          <av:PointCollection x:Key="ConnectorLocation">220,152 250,152 250,150 310,150</av:PointCollection>
+          <av:PointCollection x:Key="ConnectorLocation">210,150 310,150</av:PointCollection>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="Reads the UPS from excel file.&#xA;" DisplayName="ReadUPS" sap:VirtualizedContainerService.HintSize="200,96.8" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="data\ReadUPS.xaml">
@@ -86,7 +86,7 @@
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <av:Point x:Key="ShapeLocation">310,108</av:Point>
               <av:Size x:Key="ShapeSize">200,84</av:Size>
-              <av:PointCollection x:Key="ConnectorLocation">410,192 410,222 420,222 420,231.6</av:PointCollection>
+              <av:PointCollection x:Key="ConnectorLocation">410,192 410,241.6</av:PointCollection>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
           <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="Gets price from BestBuy" DisplayName="Invoke BestBuyGetProduct workflow" sap:VirtualizedContainerService.HintSize="200,84" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" UnSafe="False" WorkflowFileName="bestbuy\BestBuyGetProduct.xaml">
@@ -104,9 +104,9 @@
             <FlowStep x:Name="__ReferenceID1">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <av:Point x:Key="ShapeLocation">320,231.6</av:Point>
+                  <av:Point x:Key="ShapeLocation">310,241.6</av:Point>
                   <av:Size x:Key="ShapeSize">200,96.8</av:Size>
-                  <av:PointCollection x:Key="ConnectorLocation">320,280 290,280 290,290 210,290</av:PointCollection>
+                  <av:PointCollection x:Key="ConnectorLocation">310,290 210,290</av:PointCollection>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
               <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="Get prices from MicroCenter&#xA;" DisplayName="Invoke MicroCenterGetProduct workflow" sap:VirtualizedContainerService.HintSize="200,96.8" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_5" UnSafe="False" WorkflowFileName="microcenter\MicroCenterGetProduct.xaml">
@@ -146,7 +146,7 @@
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <av:Point x:Key="ShapeLocation">10,393.5</av:Point>
                           <av:Size x:Key="ShapeSize">200,96.8</av:Size>
-                          <av:PointCollection x:Key="ConnectorLocation">210,441.9 240,441.9 240,430.9 310,430.9</av:PointCollection>
+                          <av:PointCollection x:Key="ConnectorLocation">210,441.9 240,441.9 240,440 350,440</av:PointCollection>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                       <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="Writes the results to the excel sheet." DisplayName="Invoke WriteResults workflow" sap:VirtualizedContainerService.HintSize="200,96.8" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_6" UnSafe="False" WorkflowFileName="data\WriteResults.xaml">
@@ -164,9 +164,9 @@
                         <FlowStep x:Name="__ReferenceID4">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <av:Point x:Key="ShapeLocation">310,404.5</av:Point>
+                              <av:Point x:Key="ShapeLocation">350,413.6</av:Point>
                               <av:Size x:Key="ShapeSize">200,52.8</av:Size>
-                              <av:PointCollection x:Key="ConnectorLocation">410,457.3 410,504.5</av:PointCollection>
+                              <av:PointCollection x:Key="ConnectorLocation">450,466.4 450,543.6</av:PointCollection>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
                           <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke GetLowestPrice workflow" sap:VirtualizedContainerService.HintSize="200,52.8" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_8" UnSafe="False" WorkflowFileName="data\GetLowestPrice.xaml">
@@ -183,11 +183,11 @@
                             <FlowStep x:Name="__ReferenceID5">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                  <av:Point x:Key="ShapeLocation">310,504.5</av:Point>
+                                  <av:Point x:Key="ShapeLocation">350,543.6</av:Point>
                                   <av:Size x:Key="ShapeSize">200,52.8</av:Size>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke SendResults workflow" sap:VirtualizedContainerService.HintSize="200,52.8" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_9" UnSafe="False" WorkflowFileName="data\SendResults.xaml">
+                              <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke SendResults workflow" sap:VirtualizedContainerService.HintSize="333.6,88" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_9" UnSafe="False" WorkflowFileName="data\SendResults.xaml">
                                 <ui:InvokeWorkflowFile.Arguments>
                                   <InArgument x:TypeArguments="scg:List(x:String)" x:Key="in_ProductList">[PriceOutputs]</InArgument>
                                 </ui:InvokeWorkflowFile.Arguments>
