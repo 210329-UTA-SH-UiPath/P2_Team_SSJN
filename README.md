@@ -3,8 +3,15 @@ This project allows users to find the lowest price for their list of electronic 
 
 
 ## Technologies Used
+- UiPath Activities
+- UiPath Orchestrator
 - UiPath Studio
-- GitHub
+- UiPath Robot
+- Email Automation
+- Excel Automation
+- MS Excel
+- ReFramework
+- Git
 
 ## Installation
 To install:
